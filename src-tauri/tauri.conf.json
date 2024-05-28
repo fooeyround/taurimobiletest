@@ -1,14 +1,16 @@
 {
   "productName": "mobiletest",
   "version": "0.0.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.g.z",
+
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
-  "app": {"windows": [
+  "app": {
+    "windows": [
       {
         "title": "mobiletest",
         "width": 800,
